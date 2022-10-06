@@ -1,0 +1,19 @@
+.farmers_page{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.farmers_navigate{
+    height: 100%;
+    width: 20%;
+    background-color: firebrick;
+}
+
+.farmers_data{
+    height: 100%;
+    width: 80%;
+    background-color: yellow;
+    flex: 1;
+}

@@ -122,6 +122,7 @@
 
 
   .grid_info{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     width: 80vw;
     min-height: 40vh;
     display: flex;
@@ -191,7 +192,6 @@
 }
 
 .restinfo{
-    background-color: aquamarine;
     width: 80vw;
     display: flex;
     flex-direction: column;
@@ -302,7 +302,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    width: 300px;
+    width: 280px;
     height: 350px;
     margin: 1rem;
     padding: 1rem;
@@ -311,9 +311,6 @@
     backface-visibility: hidden;
   }
 
-  .sub_awards:hover{
-    transform: scale(1.02);
-  }
 
   .awards_img{
    
@@ -326,6 +323,7 @@
   .sub_awards:hover{
     box-shadow: .3rem .3rem .5rem black;
     cursor: pointer;
+    transform: scale(1.02);
   }
 
   .title_info{
